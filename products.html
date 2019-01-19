@@ -1,0 +1,222 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=yes">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>SweetSunny</title>
+    <link rel="icon" type="image/ico" href="images/logo.jpg" />
+    <!-- Hosted Links-->  <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+   <!-- Local links -->
+     <link rel="stylesheet" type="text/css" href="css/slick.css"/>
+     <link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
+     <link href="css/style.css" rel="stylesheet">
+     <link href="css/portfolio.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <section id="page-banner">
+        <div class="container banner-container"> 
+          <img src="images/product-header.jpg">
+          <div class="page-title-wrapper">
+              <div class="page-title">
+                <h1 class="section-title pink-highlight" >All Products</h1>
+              </div>
+          </div>
+        </div>
+        <div class="portfolio-container container">
+          <a class="back-btn waves-effect waves-light btn-small" onclick="goBack()"><i class="material-icons left">arrow_back</i>Back</a>
+            <ul id="filters" class="clearfix">
+              <li><span class="filter active" data-filter=".flavoree, .jar">All</span></li>
+              <li><span class="filter" data-filter=".flavoree">Flavored</span></li>
+              <li><span class="filter" data-filter=".jar">Jar</span></li>
+            </ul>
+            <div id="portfoliolist">
+                <div class="portfolio flavoree" data-cat="flavoree">
+                    <div class="portfolio-wrapper">			
+                      <img src="images/products/classic-flan.jpg" alt="" />
+                      <div class="label">
+                        <div class="label-text">
+                          <a class="text-title">Classic Leche Flan</a>
+                          <span class="text-category">FLAVORED FLAN</span>
+                        </div>
+                        <div class="label-bg"></div>
+                      </div>
+                    </div>
+                  </div>		
+              
+                <div class="portfolio flavoree" data-cat="flavoree">
+                  <div class="portfolio-wrapper">				
+                    <img src="images/products/cheesy-flan.jpg" alt="" />
+                    <div class="label">
+                      <div class="label-text">
+                        <a class="text-title">Cheesy Flan</a>
+                        <span class="text-category">FLAVORED FLAN</span>
+                      </div>
+                      <div class="label-bg"></div>
+                    </div>
+                  </div>
+                </div>				
+          
+                <div class="portfolio flavoree" data-cat="flavoree">
+                  <div class="portfolio-wrapper">			
+                    <img src="images/products/matcha-flan.jpg" alt="" />
+                    <div class="label">
+                      <div class="label-text">
+                        <a class="text-title">Matcha Flan</a>
+                        <span class="text-category">FLAVORED FLAN</span>
+                      </div>
+                      <div class="label-bg"></div>
+                    </div>
+                  </div>
+                </div>		      
+
+                <div class="portfolio flavoree" data-cat="flavoree">
+                    <div class="portfolio-wrapper">			
+                      <img src="images/products/coffee-oreo-flan.jpg" alt="" />
+                      <div class="label">
+                        <div class="label-text">
+                          <a class="text-title">Coffee Oreo Flan</a>
+                          <span class="text-category">FLAVORED FLAN</span>
+                        </div>
+                        <div class="label-bg"></div>
+                      </div>
+                    </div>
+                  </div>		
+  
+                  <div class="portfolio flavoree" data-cat="flavoree">
+                      <div class="portfolio-wrapper">			
+                        <img src="images/products/mango-graham-flan.jpg" alt="" />
+                        <div class="label">
+                          <div class="label-text">
+                            <a class="text-title">Mango Graham Flan</a>
+                            <span class="text-category">FLAVORED FLAN</span>
+                          </div>
+                          <div class="label-bg"></div>
+                        </div>
+                      </div>
+                    </div>		
+                    <div class="portfolio jar" data-cat="jar">
+                      <div class="portfolio-wrapper">			
+                        <img src="images/products/apple-cinnamon-jar.jpg" alt="" />
+                        <div class="label">
+                          <div class="label-text">
+                            <a class="text-title">Apple Cinnamon Flan in Jar</a>
+                            <span class="text-category">JAR FLAN</span>
+                          </div>
+                          <div class="label-bg"></div>
+                        </div>
+                      </div>
+                    </div>		
+                    <div class="portfolio jar" data-cat="jar">
+                      <div class="portfolio-wrapper">			
+                        <img src="images/products/coffee-jelly-jar.jpg" alt="" />
+                        <div class="label">
+                          <div class="label-text">
+                            <a class="text-title">Coffee Jelly Flan in Jar</a>
+                            <span class="text-category">JAR FLAN</span>
+                          </div>
+                          <div class="label-bg"></div>
+                        </div>
+                      </div>
+                    </div>		
+                    <div class="portfolio jar" data-cat="jar">
+                      <div class="portfolio-wrapper">			
+                        <img src="images/products/banoffee-oreo-jar.jpg" alt="" />
+                        <div class="label">
+                          <div class="label-text">
+                            <a class="text-title">Banoffee Orea Flan in Jar</a>
+                            <span class="text-category">JAR FLAN</span>
+                          </div>
+                          <div class="label-bg"></div>
+                        </div>
+                      </div>
+                    </div>	
+                    <div class="portfolio jar" data-cat="jar">
+                      <div class="portfolio-wrapper">			
+                        <img src="images/products/mango-graham-jar.jpg" alt="" />
+                        <div class="label">
+                          <div class="label-text">
+                            <a class="text-title">Mango Graham Flan in Jar</a>
+                            <span class="text-category">JAR FLAN</span>
+                          </div>
+                          <div class="label-bg"></div>
+                        </div>
+                      </div>
+                    </div>	
+                    <div class="portfolio jar" data-cat="jar">
+                      <div class="portfolio-wrapper">			
+                        <img src="images/products/matcha-jar.jpg" alt="" />
+                        <div class="label">
+                          <div class="label-text">
+                            <a class="text-title">Matcha Flan in Jar</a>
+                            <span class="text-category">JAR FLAN</span>
+                          </div>
+                          <div class="label-bg"></div>
+                        </div>
+                      </div>
+                    </div>	
+            </div>
+            
+          </div><!-- container -->
+    </section>
+ 
+    
+    <footer id="footer" class="page-footer">
+        <div class="container">
+          <div class="row">
+            <div class="footer-content col l3">
+                <h5 class="white-text">Get in Touch</h5>
+                <p>115 Acacia st. Pandan, Ligao City</p>
+                <p>Phone: <span class="caramel-highlight"> +63 906 550 3709</span></p>
+                <p>Email: <span class="caramel-highlight"> krdmijares@gmail.com</span></p>
+             </div>
+            <div class="footer-content links col l3">
+                <h5 class="white-text">Links</h5>
+                <ul>
+                  <li><a href="https://sweetsunny.000webhostapp.com/">Home</a></li>
+      
+                 </ul>
+            </div>
+            <div class="footer-content col l3">
+                <h5 class="white-text">Work Timings</h5>
+                <p >We are open during: </p>
+                <p>Moday - Saturday: 9am - 7pm</p>
+             </div>
+             <div class="footer-content social-media col l3">
+                 <h5  class="white-text">Social Media</h5>
+                 <a href=""><i class="fa fa-facebook"></i></a>
+                 <a href=""><i class="fa fa-twitter"></i></a>
+                 <a href=""><i class="fa fa-instagram"></i></a>
+             </div>
+          </div>
+        </div>
+        <div class="footer-copyright">
+          <div class="container">
+          © 2018 Sweet Sunny
+          </div>
+        </div>
+      </footer>
+
+  <div id="image-modal" class="modal">
+     <div class="image-container">
+     </div>
+  </div>       
+  
+    <!--Hoseted Scripts-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/materialize.js"></script>
+    <!--Local Scripts-->
+    <script type="text/javascript" src="js/slick.min.js"></script>
+    <script type="text/javascript" src="js/script.js" ></script>
+    <script type="text/javascript" src="js/mixitup.min.js" ></script>
+  </body>
+
+</html>
